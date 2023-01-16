@@ -14,8 +14,8 @@ Las "llaves" de encriptación utilizadas en el proyecto fueron las siguientes:
 
 
 <h1>Requisitos:</h1>
-- Debe funcionar solo con letras minúsculas
-- No deben ser utilizados letras con acentos ni caracteres especiales
+- Debe funcionar solo con letras minúsculas.
+- No deben ser utilizados letras con acentos ni caracteres especiales.
 - Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
 
 <a href="https://jesidd.github.io/encriptador-de-texto/">Visualiza mi repositorio</a>
