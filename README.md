@@ -1,16 +1,16 @@
 # encriptador-de-texto
 un proyecto creado con las Tecnologías de html, css y js.
-<br>
+
 ![image](https://user-images.githubusercontent.com/67556389/212751662-5450a5b2-e053-4b4e-b996-9f4e5cbd9458.png)
-<br>
+
 
 Las "llaves" de encriptación utilizadas en el proyecto fueron las siguientes:
 
-La letra "e" es convertida para "enter"
-La letra "i" es convertida para "imes"
-La letra "a" es convertida para "ai"
-La letra "o" es convertida para "ober"
-La letra "u" es convertida para "ufat"
+- La letra "e" es convertida para "enter"
+- La letra "i" es convertida para "imes"
+- La letra "a" es convertida para "ai"
+- La letra "o" es convertida para "ober"
+- La letra "u" es convertida para "ufat"
 
 
 <h1>Requisitos:</h1>
