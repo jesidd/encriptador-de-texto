@@ -1,7 +1,8 @@
 # encriptador-de-texto
 fue un proyecto creado con las tegnologias de html, css y js.
 
-<img href="https://jesidd.github.io/encriptador-de-texto/">
+![image](https://user-images.githubusercontent.com/67556389/212751662-5450a5b2-e053-4b4e-b996-9f4e5cbd9458.png)
+
 
 Las "llaves" de encriptación que utilizadas fueron las siguientes:
 
