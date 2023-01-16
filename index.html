@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="deskopt">
+
+            <header>
+                <img id="logo" src="imagenes/Logo.svg" alt="logo de Alura Latam">
+            </header>
+                
+            <main>
+                    <div class="campoTexto">
+                        <textarea placeholder="Ingrese Texto" id="textdescrinp"></textarea>
+                    </div>
+
+                <section class="textoEncriptado">
+                        <div class="sinDatos">
+                            
+                            <img id="muneco" src="imagenes/Muñeco.svg">
+                            
+                            <div class="vacio">
+                                <ul>
+                                    <li class="text1">
+                                        <h2>Ningún mensaje fue</h2>
+                                        <h2>encontrado</h2>
+                                    </li>
+                                    <li class="text2"><p>Ingresa el texto que desees encriptar o</p>
+                                        <p>desencriptar.</p></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <textarea id="resultado"></textarea>
+                        <button onclick="copiar()" class="buttoon" id="botonCopiar"><h3>Copiar</h3></button>
+                    </section>
+
+                    <div class="advert">
+                        <img src="imagenes/Vector.svg">
+                        <h4>Solo letras minúsculas y sin acentos</h4>
+                    </div>  
+                    
+                    <ul class="botones">
+                        <button onclick="encriptar()" class="buttoon"><li class="azul"><h3>Encriptar</h3></li></button>
+                        <button onclick="descrinptar()" class="buttoon"><li class="griss"><h3>Desencriptar</h3></li></button>
+                    </ul>
+            </main>
+        </div>        
+    </body>
+
+</html>
+
+<script src="main.js"></script>

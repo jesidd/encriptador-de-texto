@@ -1,0 +1,283 @@
+
+body{
+    background: #F3F5FC;
+    margin: 0;
+    padding-top: 0%;
+    width: 928px;
+    height: 615px;
+}
+
+.deskopt{
+    margin-left: 5%;
+    transform: scale(0.6);
+}
+
+#logo{
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+
+.campoTexto{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+
+    width: 757px;
+    height: 701px;
+    left: 160px;
+    top: 117px;
+
+    background-color: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    
+    
+}  
+
+
+.campoTexto textarea{
+    width: 700px;
+    height:650px;
+    margin-top: 20px;
+
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 32px;
+
+    border: none;
+    resize: none;
+    outline: none;
+   
+    background: none;
+    color: #0A3871;
+    
+}
+
+.textoEncriptado{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    right: 40px;
+    bottom: 40px;
+
+    background: #FFFFFF;
+    
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+}
+
+
+
+#muneco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 32px;
+    right: 32px;
+    top: 283px;
+    bottom: 397px;
+}
+
+.vacio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    top: 619px;
+    bottom: 243px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    height: 58px;
+    
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    align-items: center;
+    color: #343A40;
+}
+
+.text2{
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    height: 48px;
+    padding-top: 16px;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    align-items: center;
+    color: #495057;
+}
+
+#resultado{
+    display: none;
+    position: absolute;
+    width: 336px;
+    height: 781px;
+    top: 32px;
+    left: 32px;
+    bottom: 131px;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+#botonCopiar{
+    display: none;
+
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 32px;
+    right: 32px;
+    top: 845px;
+    bottom: 32px;
+
+    cursor: pointer;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    transition: 0.4s all;
+}
+
+#botonCopiar:hover{
+    transform: scale(1.1);
+    border-color: #1878ee;
+    color: #1878ee;
+}
+
+.advert{
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 198px;
+    top: 852px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+}
+
+.advert h4{
+    width: 205px;
+    height: 18px;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #495057;
+    opacity: 0.8;
+}
+
+.advert img{
+    width: 16px;
+    height: 16px;
+}
+
+.botones{
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 198px;
+    top: 881px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+
+.buttoon{
+    border: none;
+    background: none;
+}
+
+.botones li{
+    width: 328px;
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 24px;
+    transition: 0.4s all;
+    cursor: pointer;
+}
+
+
+
+.botones li:active,#botonCopiar:active{
+   transform: scale(0.95);
+}
+
+.botones li h3,#botonCopiar h3{
+    width: 280px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    padding: 24px;
+}
+
+.azul{
+    color: #FFFFFF;
+    background: #0A3871;
+    
+}
+
+.azul:hover{
+    background: #1878ee;
+    border-radius: 24px;
+    transform: scale(1.1);
+}
+
+.griss{
+    color: #0A3871;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+}
+
+.griss:hover{
+    background: #f2f8ff;
+    border-color: #1878ee;
+    color: #1878ee;
+    transform: scale(1.1);
+}
+
